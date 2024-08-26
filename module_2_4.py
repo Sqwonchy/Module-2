@@ -6,7 +6,7 @@ for i in range(len(numbers)):
     if n < 2: # можно сделать  if n == 1 or n == 0:  но я решил так. если нужно с учетом отрицательных чисел в множестве то можно и это вариант
         continue
     else:
-        is_prime = True
+        is_prime = True # флаг
         for k in range(2, n):
             if n % k == 0:
                 is_prime = False
