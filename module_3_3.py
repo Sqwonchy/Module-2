@@ -14,7 +14,7 @@ values_dict = {"a": "B", "b": 5, "c": False}
 print_params(*values_list)
 print_params(**values_dict)
 
-print()  #2) для разделения между заданиями
+print()  #3) для разделения между заданиями
 
 values_list_2 = ["Первый обьект", False]
 print_params(*values_list_2, 42)
